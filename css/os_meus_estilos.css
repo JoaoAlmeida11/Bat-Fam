@@ -1,0 +1,382 @@
+*{
+    font-family: sans-serif;
+
+}
+
+/*ESTILOS GERAIS*/
+
+body{background-color: #0F0F0F;}
+
+nav, header {background-color: #0F0F0F;}
+
+nav button{text-align: right;}
+
+nav a{color: #191514; font-weight: bold;}
+
+nav li{font-size: 0.9rem;}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+
+footer{background-color: #0F0F0F;}
+
+
+.legenda{color: white;
+    font-weight: bold;
+    background-color: #4F4F4F;
+    display: inline !important;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;}
+
+
+
+/*PÁGINA DO ROBIN*/
+
+body#robin{background-color: #B20000;}
+header#hrobin, nav#nrobin, footer#frobin{background-color: #176f0b;}
+
+
+.altura2rem {height: 2rem;}
+.valor95 {width: 95%;}
+.valor78 {width: 78%;}
+.valor98 {width: 98%;}
+.valor80 {width: 80%;}
+.valor90 {width: 90%;}
+.valor99 {width: 99%;}
+.valor0 {width: 0;}
+.valor64 {width: 64%;}
+
+
+
+/* PÁGINA DO SUPERMAN */
+
+body#superman{background-color: #8C2029;}
+footer#superfooter, header#headersuperman, nav#navsuperman, .barra_superman{background-color: #175073;}
+
+
+
+/* PÁGINA DA WONDER WOMAN*/
+
+body#wonder{background-color: #8C2029;}
+footer#wonderfooter, header#headerwonder, nav#navwonder{background-color: #175073;}
+.barra_wonder{background-color: #d0a421;}
+
+
+
+/* PÁGINA DO FLASH */
+
+body#flash{background-color: #eabb20;}
+header#flashheader, nav#flashnav, footer#flashfooter{background-color: #8C2029;}
+.barra_flash{background-color: #8C2029;}
+.barra_flash_branca{background-color: white;}
+
+
+
+/*PÁGINA DO GORDON*/
+
+body#gordon{background-color: white;}
+.barra_gordon{background-color: #0F0F0F;}
+
+
+
+/*PÁGINA DO Alfred*/
+
+body#alfred{background-color: white;}
+.barra_alfred, .alfred_footer{background-color: #0F0F0F;}
+
+
+
+/*PÁGINA DO JOKER*/
+
+header#headerjoker, nav#navjoker, footer#jokerfooter {background-color: #4C0466;}
+body#Joker {background-color: white;}
+.roxo {color: purple;}
+.purple {background-color: purple;}
+.valor60 {width: 60%;}
+.valor40 {width: 40%;}
+.valor30 {width: 30%;}
+.valor200 {width: 200%;}
+.valor100 {width: 100%;}
+main#Jokermain h2 {color: purple;}
+
+
+
+/*PÁGINA DA HARLEY*/
+
+header#hharley, nav#nharley, footer#fharley{background-color: #5a1010;}
+.barra_harley{background-color: #5a1010;}
+.barra_harley2{background-color: #781e1e;}
+.link_harley{color: #8b3131;}
+
+
+
+/*PÁGINA DO RIDDLER*/
+
+body#riddler {background-color: lightgray;}
+
+
+
+
+/*PÁGINA DO TWO FACE*/
+
+body#two{background-color: #C10000;}
+header#htwo, nav#navtwo, footer#twofooter{background-color: #665f94;}
+.barra_two{background-color: #665f94;}
+.barra2{background-color: #fdb379;}
+
+
+
+
+/*PÁGINA DA POISON*/
+
+body#poison{background-color: white;}
+header#hpoison,nav#npoison, footer#poisonfooter{background-color: #035e25;}
+.barra_poison{background-color: #035e25;}
+.barra_poison2{background-color: #f25034;}
+
+
+
+
+/*PÁGINA D0 PENGUIN*/
+
+body#penguin{background-color: white;}
+.barra_penguin{background-color: #0F0F0F;}
+.barra_penguin2{background-color: #4a4a4a;}
+
+
+
+
+/* PÁGINA DAS TEORIAS */
+
+body#teorias{background-color: white;}
+
+
+
+
+/* PÁGINA DA EQUIPA */
+
+.barra{background-color: #4C0466;}
+
+
+
+
+
+/* PÁGINA DA BAT NEWS */
+
+body#bat_news{background-color: white;}
+
+
+
+
+/* PÁGINA DOS CONTACTS*/
+body#contacts{background-color: white;}
+
+
+
+
+/* PÁGINA DA TIMELINE */
+body#timeline{background-color: white;}
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 325px) {
+    .fa-chevron-circle-right, .fa-chevron-circle-left{
+        font-size: 1rem;
+    }
+
+    .collumn_row{
+        flex-direction: column;
+    }
+
+}
+
+/* Extra small devices (0px --- 599px) */
+@media only screen and (max-width: 599px) {
+
+
+    html, .fa-facebook, .fa-twitter-square, .fa-instagram, .fa-youtube{
+        font-size: 1.4rem;
+    }
+
+    /*PÁGINA DO ROBIN*/
+    .texto_r{font-size: 1.6rem;}
+
+
+    .fa-chevron-circle-right, .fa-chevron-circle-left{
+        font-size: 2rem;
+    }
+
+
+    .collumn_row{
+        flex-direction: column;
+    }
+
+
+    h1{font-size: 1.6rem;}
+    h2{font-size: 1.4rem;}
+    h4{font-size: 1.2rem;}
+
+
+    /* FANART */
+    .cloud-c{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .cloud-a{
+        background-color: #fff;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        box-shadow: 0 2px 8px #9E9E9E;
+    }
+
+}
+
+
+/* Small devices (600px --- 767px) */
+@media only screen and (min-width: 600px) {
+
+    html, .fa-facebook, .fa-twitter-square, .fa-instagram, .fa-youtube{
+        font-size: 1.4rem;
+    }
+
+    /*PÁGINA DO ROBIN*/
+    .texto_r{font-size: 1.6rem;}
+
+
+    .fa-chevron-circle-right, .fa-chevron-circle-left{
+        font-size: 2rem;
+    }
+
+
+    h1{font-size: 1.6rem;}
+    h2{font-size: 1.4rem;}
+    h4{font-size: 1.2rem;}
+
+
+    /* FANART */
+    .cloud-c{
+        display: flex;
+        overflow: hidden;
+    }
+    .cloud-a{
+        flex: 1;
+        transition: all 0.3s ease-in-out;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px #9E9E9E;
+    }
+    .cloud-a:not(:first-child){
+        margin-left: -10rem;
+    }
+    .cloud-a:hover, .cloud-a:focus{
+        transform: translateY(-1rem);
+    }
+    .cloud-a:hover ~ .cloud-a, .cloud-a:focus ~ .cloud-a{
+        transform: translateX(11rem);
+    }
+
+    .collumn_row{
+        flex-direction: column;
+    }
+
+}
+
+
+/* Medium devices (768px --- 991px) */
+@media only screen and (min-width: 768px) {
+
+    html{
+        font-size: 1.4rem;
+    }
+
+    /*PÁGINA DO ROBIN*/
+    .texto_r{font-size: 1.4rem;}
+
+
+    .fa-facebook, .fa-twitter-square, .fa-instagram, .fa-youtube{font-size: 1.4rem;}
+
+
+    .fa-chevron-circle-right, .fa-chevron-circle-left {font-size: 3rem;}
+
+
+    .collumn_row{flex-direction: column;}
+
+
+    .texto_equipa{height: 15rem;}
+
+    h1{font-size: 1.4rem;}
+    h2{font-size: 1.2rem;}
+    h4{font-size: 1rem;}
+
+
+
+}
+
+/* Large devices (992px --- 1199px) */
+@media only screen and (min-width: 992px) {
+
+    html{
+        font-size: 1rem;
+    }
+
+    /*PÁGINA DO ROBIN*/
+    .texto_r{font-size: 1rem;}
+
+
+    .fa-facebook, .fa-twitter-square, .fa-instagram, .fa-youtube{font-size: 1.4rem}
+
+    .collumn_row{
+        flex-direction: row;
+    }
+
+
+
+
+    h1{font-size: 1.6rem;}
+    h2{font-size: 1.4rem;}
+    h4{font-size: 1.2rem;}
+
+    /* TIMELINE*/
+    .mt-extra{
+        margin-top: 9rem;
+    }
+
+}
+
+
+/* Extra large devices (1200 --- superior) */
+@media only screen and (min-width: 1200px) {
+
+    html{
+        font-size: 1rem;
+    }
+
+    .texto_r{font-size: 1rem;}
+
+    .fa-facebook, .fa-twitter-square, .fa-instagram, .fa-youtube{font-size: 1.4rem;}
+
+    h1{font-size: 2rem;}
+
+    /* TIMELINE*/
+    .mt-extra{
+        margin-top: 15%;
+    }
+
+    .texto_equipa{height: 13rem;}
+
+}
+
+
+
+
+
+
+
